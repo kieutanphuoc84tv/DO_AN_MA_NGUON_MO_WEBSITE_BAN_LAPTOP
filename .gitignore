@@ -1,0 +1,44 @@
+# Composer dependencies (will be tracked by LFS)
+vendor/
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Node modules (if any)
+node_modules/
+npm-debug.log
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Cache
+.cache/
+*.cache
+
+# Database backups
+*.sql
+*.db
+
+# Uploads (tracked by LFS)
+# uploads/ is NOT ignored, will be tracked by LFS
+
+# Build artifacts
+dist/
+build/
